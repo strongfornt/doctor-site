@@ -5,7 +5,7 @@ import logo from '@/assets/logo-dark.png'
 export default function Header() {
   return (
   <>
-    <header className=" py-1 md:py-3  ">
+    <header className=" py-3   ">
 	<div className="container flex justify-between items-center mx-auto">
 		<Image src={logo} height={500} width={500} alt='logo' className='w-20 h-6' />
 		<ul className="items-stretch hidden space-x-3 lg:flex text-sm ">
@@ -26,7 +26,7 @@ export default function Header() {
 			
 			<button className="self-center flex items-center gap-1 px-4 border py-2 font-medium rounded-xl"><span>Appointment</span> <GoArrowUpRight /></button>
 		</div>
-		<button className="p-4 lg:hidden">
+		<button className=" lg:hidden shadow-lg rounded">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-100 dark:text-gray-800">
 				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
 			</svg>
