@@ -2,16 +2,17 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function Services() {
+    
   return (
-    <section className="grid md:grid-cols-2 gap-5 rounded-3xl p-2 md:p-4 lg:p-8 bg-[#FFFFF5]">
+    <section className="grid md:grid-cols-2 gap-5 rounded-3xl p-2 md:p-4 lg:px-8 xl:p-10 bg-[#FFFFF5]">
       {/* card 1 */}
       <div class="  ">
         <div class="w-full h-96 relative bg-center bg-cover rounded-3xl ">
-          <div className="  space-y-5">
+          <div className="  space-y-7">
             <button className="text-[#020043]  border   border-[#4D4C7B] px-4 py-1 rounded-3xl ">
               Service
             </button>
-            <div className="space-y-2">
+            <div className="space-y-5">
               <h3 className="text-[#020043] font-medium text-4xl leading-tight">
                 Empowering Health, <br /> Enriching Lives
               </h3>
@@ -33,7 +34,7 @@ export default function Services() {
         <div
           class="w-full h-96 relative  bg-center bg-cover rounded-3xl "
           style={{
-            backgroundImage: `url(${"https://i.postimg.cc/sXZwdn1h/Rectangle-24.png"})`,
+            backgroundImage: `url(${"https://i.postimg.cc/bYtJB4HR/Rectangle-27-2.png"})`,
           }}
         >
           <div className="max-w-72 py-6 px-3 bg-[#02004378] rounded-xl flex gap-2 items-end absolute bottom-4 left-4">

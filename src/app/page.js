@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs/AboutUs";
 import Banner from "@/components/Banner/Banner";
 import Faq from "@/components/Faq/Faq";
 import Footer from "@/components/Footer/Footer";
@@ -18,6 +19,11 @@ export default function Home() {
         {/* banner section============= */}
           <Banner/>
         {/* banner section=============  end*/}
+        {/* about me section */}
+        <section className=" my-10 md:my-16" >
+        <AboutUs/>
+        </section>
+        {/* about me section */}
         {/* services section */}
        <section className=" my-10 md:my-16" >
        <Services/>
