@@ -4,6 +4,7 @@ import Footer from "@/components/Footer/Footer";
 import FBanner from "@/components/FooterBanner/FBanner";
 import Header from "@/components/Header/Header";
 import Review from "@/components/Review/Review";
+import Services from "@/components/Services/Services";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,11 @@ export default function Home() {
         {/* banner section============= */}
           <Banner/>
         {/* banner section=============  end*/}
+        {/* services section */}
+       <section className=" my-10 md:my-16" >
+       <Services/>
+       </section>
+        {/* services section end */}
         {/* Review section ===================== */}
        <section className=" my-10 md:my-16" >
        <Review/>
