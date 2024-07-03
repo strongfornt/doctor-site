@@ -3,6 +3,7 @@ import Faq from "@/components/Faq/Faq";
 import Footer from "@/components/Footer/Footer";
 import FBanner from "@/components/FooterBanner/FBanner";
 import Header from "@/components/Header/Header";
+import Review from "@/components/Review/Review";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,16 +17,21 @@ export default function Home() {
         {/* banner section============= */}
           <Banner/>
         {/* banner section=============  end*/}
+        {/* Review section ===================== */}
+       <section className=" my-10 md:my-16" >
+       <Review/>
+       </section>
+        {/* Review section ===================== end */}
 
         {/* Faq section start ============================*/}
-         <section className=" my-10 xl:my-16" >
+         <section className=" my-10 md:my-16" >
           <Faq/>
          </section>
         {/* Faq section end ============================*/}
       </main>
       
   {/* Banner in footer section start ====================== */}
-       <section  className=" my-16 xl:my-20" >
+       <section  className="my-10 md:my-16 " >
        <FBanner/>
        </section>
   {/* Banner in footer start ====================== */}
