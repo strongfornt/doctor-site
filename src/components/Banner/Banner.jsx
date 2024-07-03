@@ -6,18 +6,14 @@ export default function Banner() {
     <>
       <section
         style={{
-          backgroundImage: `url(${'https://i.postimg.cc/L8Bw6C8d/banner.png'})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-
+          backgroundImage: `url(${"https://i.postimg.cc/L8Bw6C8d/banner.png"})`,
+        //   backgroundSize: "cover",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "center",
         }}
-        className="min-h-[calc(100vh-70px)] min-w-full mt-1 rounded-3xl"
+        className="min-h-[calc(100vh-70px)] min-w-full mt-1 rounded-3xl bg-cover bg-no-repeat bg-center "
       >
-
-        <div className="min-h-[calc(100vh-70px)] w-full bg-black/15  rounded-3xl" >
-
-        </div>
+        <div className="min-h-[calc(100vh-70px)] w-full bg-black/15  rounded-3xl"></div>
       </section>
     </>
   );
