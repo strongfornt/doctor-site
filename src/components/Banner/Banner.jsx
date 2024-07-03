@@ -13,7 +13,7 @@ export default function Banner() {
         }}
         className="min-h-[calc(100vh-70px)] min-w-full mt-1 rounded-3xl bg-cover bg-no-repeat bg-center "
       >
-        <div className="min-h-[calc(100vh-70px)] w-full bg-black/15  rounded-3xl"></div>
+        <div className="min-h-[calc(100vh-70px)] w-full bg-[#02004378]  rounded-3xl"></div>
       </section>
     </>
   );

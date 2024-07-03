@@ -1,7 +1,7 @@
 import React from 'react'
 import { LiaLinkedinIn } from "react-icons/lia";
 import { PiInstagramLogo } from "react-icons/pi";
-import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 import logo from '@/assets/logo-light.png'
 
@@ -72,8 +72,9 @@ export default function Footer() {
 					<a rel="noopener noreferrer" href="#" title="Instagram" className=" flex items-center   text-2xl">
 					<PiInstagramLogo />
 					</a>
-					<a rel="noopener noreferrer" href="#" title="Linkedin" className=" px-1 -py-1  flex items-center bg-white rounded-full  text-black text-lg">
-					<LiaLinkedinIn />
+					<a rel="noopener noreferrer" href="#" title="Linkedin" className="   flex items-center">
+					{/* <LiaLinkedinIn /> */}
+                    <FaLinkedin className='text-2xl ' />
 					</a>
                     <a rel="noopener noreferrer" href="#" title="Youtube" className="  flex items-center  rounded-full  text-white text-2xl">
 					<FaYoutube />

@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
+import FBanner from "@/components/FooterBanner/FBanner";
 import Header from "@/components/Header/Header";
 import Image from "next/image";
 
@@ -16,6 +17,13 @@ export default function Home() {
         {/* banner section=============  end*/}
       </main>
       
+  {/* Banner in footer section start ====================== */}
+       <section  className=" my-16 xl:my-24" >
+       <FBanner/>
+       </section>
+  {/* Banner in footer start ====================== */}
+
+
     </section>
 
   <footer>
