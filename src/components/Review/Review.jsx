@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-
 import Profile1 from "@/assets/test3.webp";
+import p1 from "@/assets/Ellipse-10.png"
+import p2 from "@/assets/Ellipse-5.png"
+import p3 from "@/assets/Elips2.png"
 import Star from "./Star";
 
 export default function Review() {
@@ -30,7 +32,7 @@ export default function Review() {
               <div class="relative">
                 <Image
                   class="object-cover w-12 h-12 rounded-full   "
-                  src={Profile1}
+                  src={p1}
                   alt="pp"
                 />
               </div>
@@ -68,7 +70,7 @@ export default function Review() {
               <div class="relative">
                 <Image
                   class="object-cover w-12 h-12 rounded-full   "
-                  src={Profile1}
+                  src={p3}
                   alt="pp"
                 />
               </div>
@@ -106,7 +108,7 @@ export default function Review() {
               <div class="relative">
                 <Image
                   class="object-cover w-12 h-12 rounded-full   "
-                  src={Profile1}
+                  src={p2}
                   alt="pp"
                 />
               </div>

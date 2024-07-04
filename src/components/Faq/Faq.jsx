@@ -18,7 +18,7 @@ export default function Faq() {
       <h1 class="text-xl md:text-2xl font-semibold my-4 md:my-6 text-[#020043] lg:text-3xl ">
             Frequently Asked Questions
           </h1>
-        <div class="container px-2  mx-auto">
+        <div class="container   mx-auto">
           
           <Accordion allowToggle>
             <AccordionItem  >

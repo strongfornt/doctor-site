@@ -2,6 +2,8 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import logo from "@/assets/logo-dark.png";
+import ResponsiveMenu from "./ResponsiveMenu";
+
 export default function Header() {
   return (
     <>
@@ -14,16 +16,16 @@ export default function Header() {
             alt="logo"
             className="w-20 h-6"
           />
-          <ul className="items-stretch hidden space-x-3 lg:flex text-sm ">
+          <ul className="items-stretch hidden space-x-3 text-[#020043] lg:flex text-sm ">
             <li className="flex">
-              <a href="#" className="flex items-center px-4 text-color ">
+              <a href="#Home" className="flex items-center  px-4  ">
                 Home
               </a>
             </li>
             <li className="flex">
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="#services"
                 className="flex items-center px-4     "
               >
                 Services
@@ -41,7 +43,7 @@ export default function Header() {
             <li className="flex">
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="#about"
                 className="flex items-center px-4  "
               >
                 About us
@@ -49,26 +51,14 @@ export default function Header() {
             </li>
           </ul>
           <div className="items-center flex-shrink-0 hidden lg:flex">
-            <button className="self-center flex items-center gap-1 px-4 border py-2 font-medium rounded-xl">
+            <button className="self-center flex text-base items-center gap-1 text-[#020043] px-4 border border-[#343268] py-2 font-semibold rounded-xl">
               <span>Appointment</span> <GoArrowUpRight />
             </button>
           </div>
-          <button className=" lg:hidden shadow-lg rounded">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-6 h-6 text-gray-100 dark:text-gray-800"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-          </button>
+		 
+        <div className="lg:hidden" >
+		<ResponsiveMenu/>
+		</div>
         </div>
       </header>
     </>

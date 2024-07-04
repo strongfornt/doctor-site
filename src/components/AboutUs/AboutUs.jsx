@@ -38,7 +38,7 @@ export default function AboutUs() {
             backgroundImage: `url(${"https://i.postimg.cc/sXZwdn1h/Rectangle-24.png"})`,
           }}
         >
-          <div className="max-w-xs lg:max-w-sm px-7 py-10 bg-[#343268] rounded-3xl flex gap-2 items-end absolute  bottom-3 left-3 lg:-bottom-7 lg:-left-20">
+          <div className="max-w-xs lg:max-w-sm px-7 py-10 bg-[#343268] rounded-3xl flex gap-2 items-end absolute  bottom-3 left-3 lg:-bottom-7 lg:-left-20 xl:-left-28">
             <div className="space-y-4">
               <h3 className="text-[#FFFFF5] font-medium text-lg">
               Our mission is simple
