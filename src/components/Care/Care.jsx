@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Group12 from "@/assets/Group-12.png";
 import Group2 from "@/assets/Group2.png";
-import C from "@/assets/Contract1.png";
+import C from "@/assets/contract1.png";
 import p1 from "@/assets/Elips2.png";
 import p2 from "@/assets/Elips-3.png";
 import p3 from "@/assets/Ellipse-4.png";
